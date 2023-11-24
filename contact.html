@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Hotel Starr | Contact</title>
+        <meta name="author" content="Cleveland H. Williams III" />
+        <meta
+            name="description"
+            content="The OFFICIAL Help desk for Hotel Starr"
+        />
+        <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
+
+        <link rel="stylesheet" href="style.css" />
+    </head>
+
+    <body>
+        <nav>
+            <div id="title">
+                <h1><a href="index.html">Hotel Starr</a></h1>
+            </div>
+
+            <div id="links">
+                <a href="index.html">Home</a>
+                <a href="#">Accommodations</a>
+                <a href="contact.html">Contact</a>
+            </div>
+        </nav>
+
+        <div id="hero">
+            <img src="images/swiss-valley.jpg" alt="A swiss valley" />
+        </div>
+
+        <main id="max">
+            <h2>Contact Us</h2>
+            <p>
+                Please reach out to us with any questions or concerns. We are
+                happy to help you plan your dream vacation with us! Required
+                fields marked with a *
+            </p>
+            <img src="images/swiss-sunset.jpg" alt="A swiss chalet" />
+
+            <div class="form">
+                <form
+                    action="https://wp.zybooks.com/form-viewer.php"
+                    method="POST"
+                    target="_blank"
+                >
+                    <div class="fill">
+                        <label for="full-name"
+                            >Full Name: <span class="required">*</span></label
+                        >
+                        <input
+                            type="text"
+                            name="full-name"
+                            id="full-name"
+                            required
+                        />
+                        <br />
+                        <label for="email"
+                            >Email Address:
+                            <span class="required">*</span></label
+                        >
+                        <br />
+                        <input type="email" name="email" id="email" required />
+                        <br />
+                        <label for="phone"
+                            >Phone Number:
+                            <span class="required">*</span></label
+                        >
+                        <br />
+                        <input type="tel" name="phone" id="phone" required />
+                    </div>
+
+                    <div class="pref">
+                        <fieldset>
+                            <legend>
+                                Contact Method:
+                                <span class="required">*</span>
+                            </legend>
+
+                            <input
+                                type="radio"
+                                name="contact-pref"
+                                id="pref-email"
+                                checked
+                            />
+                            <label for="pref-email">Email</label>
+
+                            <input
+                                type="radio"
+                                name="contact-pref"
+                                id="pref-phone"
+                            />
+                            <label for="pref-phone">Phone</label>
+                        </fieldset>
+                        <br />
+                        <label for="comments"
+                            >Comments: <span class="required">*</span></label
+                        >
+                        <textarea name="comments" id="comments"></textarea>
+                        <br>
+                        <br>
+                        <input
+                            type="submit"
+                            name="submit"
+                            id="submit"
+                            value="Submit the Form"
+                        />
+                    </div>
+                </form>
+            </div>
+        </main>
+
+        <footer>
+            <p>Copyright ©2023 - Hotel Starr</p>
+            <p>This site is for educational purposes only</p>
+        </footer>
+    </body>
+</html>
